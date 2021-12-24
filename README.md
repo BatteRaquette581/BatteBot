@@ -64,18 +64,18 @@ Gives the list of the commands in their categories.
 Replies with the amount of chance in % of something. Example:
 
 > \random intelligent
->> @RandomUser, you are 72% intelligent
+>> @RandomUser, you are 72% intelligent.
 
 Enter as first argument a ping starting by @ of a valid member, role, @everyone or @here. Example:
 
 > \random @BatteRaquette58 intelligent
->> @BatteRaquette58, you are 46% intelligent
+>> @BatteRaquette58, you are 46% intelligent.
 
 > \random @CustomRole intelligent
->> @CustomRole, you are 93% intelligent
+>> @CustomRole, you are 93% intelligent.
 
 > \random @here intelligent
->> @here, you are 12% intelligent
+>> @here, you are 12% intelligent.
 
 > \random @everyone intelligent
->> @everyone, you 45% intelligent
+>> @everyone, you 45% intelligent.
