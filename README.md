@@ -79,3 +79,15 @@ Enter as first argument a ping starting by @ of a valid member, role, @everyone 
 
 > \random @everyone intelligent
 >> @everyone, you 45% intelligent.
+
+#### \membercount
+
+Go in a voice channel and type this command to change the voice channel's name to the current member count in the format of "Member Count: {member count here}".
+
+#### \gettext
+
+Get all the text in a webpage, limit of characters is 2000 characters.
+
+#### \meme
+
+Gives you a random meme from the r/memes subreddit.
