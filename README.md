@@ -34,3 +34,16 @@ Doing \invitelink replies with the link to invite the bot to your server. Exampl
 
 > \invitelink
 >> [https://discord.com/api/oauth2/authorize?client_id=922518127378587718&permissions=8&scope=bot](https://discord.com/api/oauth2/authorize?client_id=922518127378587718&permissions=8&scope=bot)
+
+#### \pong
+
+*very funny joke*, example:
+> \ping
+>> Pong!
+
+#### \utc
+
+Gives the UTC time in the format of Y-M-D H:Min:S.(5 numbers after the comma). Example:
+
+> \utc
+>> The UTC time is currently 2021-12-24 13:31:51.542174.
