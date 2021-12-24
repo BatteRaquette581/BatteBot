@@ -24,3 +24,13 @@ To install the bot to your Discord server, follow this:
 ![Authorize Administrator perms](/assets/md/authorize.JPG "Authorize Administrator perms")
 - Complete the captcha.
 - You are done, go back to your server and the bot is there.
+<br>
+
+### Commands list
+
+#### \invitelink
+
+Doing \invitelink replies with the link to invite the bot to your server. Example:
+
+> \invitelink
+>> [https://discord.com/api/oauth2/authorize?client_id=922518127378587718&permissions=8&scope=bot](https://discord.com/api/oauth2/authorize?client_id=922518127378587718&permissions=8&scope=bot)
