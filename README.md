@@ -7,5 +7,6 @@ BatteBot is a discord bot developed by *BatteRaquette58* that is designed to be 
 <br>
 
 ## Docs
+<br>
 
 ### How do you invite it to your server?
