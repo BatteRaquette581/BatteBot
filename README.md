@@ -21,4 +21,6 @@ To install the bot to your Discord server, follow this:
 - Authorize the bot to get Administrator permissions:
 <br>
 
-![Choose server](/assets/md/choose-server.JPG "Choose server")
+![Authorize Administrator perms](/assets/md/authorize.JPG "Authorize Administrator perms")
+- Complete the captcha.
+- You are done, go back to your server and the bot is there.
