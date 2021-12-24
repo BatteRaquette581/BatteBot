@@ -39,7 +39,7 @@ async def on_message(message):
       ", you have a beautiful and creative mind.",
       ", if you feel useless, just type \\compliment!",
       ", there is always someone dumber than you.",
-      ", you are so humble that I am giving you the link to add me to your server. Link: https://discord.com/api/oauth2/authorize?client_id=922518127378587718&permissions=8&scope=bot"
+      ", you are so humble that I am giving you the link to add me to your server. Link: https://discord.com/api/oauth2/authorize?client_id=922518127378587718&permissions=8&scope=bot."
     ]
     await message.reply(str(message.author.mention) + compliments[random.randint(0, len(compliments) - 1)], mention_author=True)
   if msg == "\\help":
@@ -104,7 +104,7 @@ async def on_message(message):
         await message.author.add_roles(discord.utils.get(message.guild.roles, name="Cheap Role"))
         await message.reply("\"Cheap Role\" role granted for 1 BatteCoins!", mention_author=True)'''
   if msg == "\\membercount":
-    await message.author.voice.channel.edit(name = "**Member Count: " + str(message.guild.member_count) + "**")
+    await message.author.voice.channel.edit(name = "Member Count: " + str(message.guild.member_count))
   if msg.startswith("\\gettext"):
     url = msg.split()[1]
     urllib_request = urllib.request.urlopen(url)
