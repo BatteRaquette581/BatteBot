@@ -47,3 +47,10 @@ Gives the UTC time in the format of Y-M-D H:Min:S.(5 numbers after the comma). E
 
 > \utc
 >> The UTC time is currently 2021-12-24 13:31:51.542174.
+
+#### \compliment
+
+Gives a you a compliment. Example:
+
+> \compliment
+>> "@Random User, you are so humble that I am giving you the link to add me to your server. Link: [https://discord.com/api/oauth2/authorize?client_id=922518127378587718&permissions=8&scope=bot](https://discord.com/api/oauth2/authorize?client_id=922518127378587718&permissions=8&scope=bot)".
