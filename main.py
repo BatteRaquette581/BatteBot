@@ -14,6 +14,7 @@ async def on_ready():
   print('Logged in as {0}.'.format(client.user))
   activity = discord.Activity(type=discord.ActivityType.listening, name="others! Just type \help.")  
   await client.change_presence(status=discord.Status.online, activity=activity)
+  verify = False #change to True to activate bad word filter
 @client.event
 async def on_message(message):
   msg = message.content
