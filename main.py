@@ -7,7 +7,7 @@ reddit = praw.Reddit(
   client_secret="sieZsYN54SHhnBdiwuTlpvVf-KGKYQ",
   user_agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:47.0) Gecko/20100101 Firefox/47.0",
   check_for_async = False
-)
+) #it's ok if you show the id secret and user agent, because this is a read_only bot and you only can view posts
 subreddit = reddit.subreddit("memes")
 @client.event
 async def on_ready():
@@ -118,4 +118,4 @@ async def on_message(message):
   if msg == "\invitelink":
     await message.reply("https://discord.com/api/oauth2/authorize?client_id=922518127378587718&permissions=8&scope=bot", mention_author = True)
 keep_alive()
-client.run(os.environ["token"])
+client.run(os.environ["token"]) #this is kept in a enviroment variable, token is not public
