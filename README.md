@@ -1,3 +1,3 @@
 # BatteBot
 
-##What is the BatteBot bot?
+## What is the BatteBot bot?
