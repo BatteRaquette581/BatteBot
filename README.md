@@ -10,3 +10,7 @@ BatteBot is a discord bot developed by *BatteRaquette58* that is designed to be 
 <br>
 
 ### How do you invite it to your server?
+
+To install the bot to your Discord server, follow this:
+
+- Click on the link [here](https://discord.com/api/oauth2/authorize?client_id=922518127378587718&permissions=8&scope=bot "Install BatteBot to your server")
